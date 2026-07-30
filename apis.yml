@@ -1,8 +1,29 @@
 aid: melonn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/melonn.png
 name: Melonn
-description: 'Melonn is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Melonn is a third-party logistics (3PL) and multichannel fulfillment operator
+  for e-commerce businesses across Colombia and Mexico. Through its proprietary
+  Órbita platform it centralizes inventory, processes and packs orders, manages
+  returns, and offers same/next-day delivery, unifying multiple sales channels
+  into a single operation. Melonn connects to platforms such as Shopify, VTEX,
+  WooCommerce, Magento, PrestaShop, MercadoLibre, Amazon, Walmart, Rappi, TikTok
+  Shop, Liverpool, and Coppel, and exposes a REST API with real-time webhooks so
+  any external platform can drive order management, inventory queries, shipment
+  tracking, and returns. Melonn was surfaced as a portfolio company of QED
+  Investors. Public developer documentation and a sandbox are provided on request
+  via the Melonn advisory/contact form rather than an open developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/melonn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +33,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Fintech
-apis: []
+- Fulfillment
+- Logistics
+- Ecommerce
+- Supply Chain
+- Shipping
+- Latin America
+- 3PL
+apis:
+- name: Melonn REST API
+  description: >-
+    REST API to connect any external platform to Melonn's logistics operations —
+    order management, inventory queries, shipment tracking, and returns — with
+    real-time webhooks for order and inventory status changes. Credentials, a
+    testing environment, and full documentation are provided on request.
+  humanURL: https://www.melonn.com/integraciones/melonn-api/
+  baseURL: https://api.melonn.com
+  tags:
+  - Fulfillment
+  - Logistics
+  - Orders
+  - Inventory
+  properties:
+  - type: Webhooks
+    url: https://www.melonn.com/integraciones/melonn-api/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/melonn-domain-security.yml
 - type: Website
-  url: http://www.melonn.com
+  url: https://www.melonn.com
+- type: Documentation
+  url: https://www.melonn.com/integraciones/melonn-api/
+- type: Blog
+  url: https://www.melonn.com/blog/
+- type: HelpCenter
+  url: https://www.melonn.com/faq/
+- type: SignUp
+  url: https://www.melonn.com/colombia/solicitar-asesoria/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
