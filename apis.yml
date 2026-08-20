@@ -38,6 +38,15 @@ tags:
 - Company
 - Fulfillment
 - Logistics
+- E-Commerce
+- Supply Chain
+- Shipping
+- Latin America
+- 3PL
+tags_raw:
+- Company
+- Fulfillment
+- Logistics
 - Ecommerce
 - Supply Chain
 - Shipping
@@ -53,6 +62,11 @@ apis:
   humanURL: https://www.melonn.com/integraciones/melonn-api/
   baseURL: https://api.melonn.com
   tags:
+  - Fulfillment
+  - Logistics
+  - Order
+  - Inventory
+  tags_raw:
   - Fulfillment
   - Logistics
   - Orders
