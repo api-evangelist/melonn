@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Melonn is a company surfaced as a portfolio company of qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Melonn is a third-party logistics (3PL) and multichannel fulfillment operator for e-commerce businesses across Colombia and Mexico. Through its proprietary Órbita platform it centralizes inventory, processes and packs orders, manages returns, and offers same/next-day delivery, unifying multiple sales channels into a single operation. Melonn connects to platforms such as Shopify, VTEX, WooCommerce, Magento, PrestaShop, MercadoLibre, Amazon, Walmart, Rappi, TikTok Shop, Liverpool, and Coppel, and exposes a REST API with real-time webhooks so any external platform can drive order management, inventory queries, shipment tracking, and returns. Melonn was surfaced as a portfolio company of QED Investors. Public developer documentation and a sandbox are provided on request via the Melonn advisory/contact form rather than an open developer portal.
 
-Backed by: qed-investors — http://www.melonn.com
+**Areas:** Company · Fulfillment · Logistics · E-Commerce · Supply Chain · Shipping · Latin America · 3PL
+
+## Melonn on APIs.io
+
+Everything profiled for Melonn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/melonn/](https://apis.io/providers/melonn/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Melonn REST API](https://apis.io/apis/melonn/melonn-rest-api/) — REST API to connect any external platform to Melonn's logistics operations — order management, inventory queries, shipment tracking, and returns — with…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Melonn Domain Security](https://apis.io/security/melonn/melonn-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.melonn.com)
+- [Documentation](https://www.melonn.com/integraciones/melonn-api/)
+- [Sign up](https://www.melonn.com/colombia/solicitar-asesoria/)
+- [Blog](https://www.melonn.com/blog/)
+
+## API Evangelist rating
+
+**Kin Score 12.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 13.2 |
+
+**Agent readiness 3.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/melonn/](https://apis.io/providers/melonn/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Melonn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/melonn/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
